@@ -1,0 +1,70 @@
+/* Page background */
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#1f1f1f;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+/* Main box */
+.container{
+  background:#2a2a2a;
+  padding:50px;
+  border-radius:16px;
+  width:520px;              /* bigger form box */
+  box-shadow:0 10px 35px rgba(0,0,0,0.7);
+  text-align:center;
+}
+
+/* Big image */
+.loaded-image{
+  width:380px;
+  border-radius:12px;
+  margin-bottom:20px;
+}
+
+/* Inputs */
+input{
+  width:100%;
+  padding:14px;
+  margin-top:10px;
+  margin-bottom:10px;
+  border-radius:8px;
+  border:none;
+  background:#3a3a3a;
+  color:white;
+  font-size:15px;
+}
+
+/* Input focus */
+input:focus{
+  outline:none;
+  box-shadow:0 0 5px #8b5cf6;
+}
+
+/* Buttons */
+button{
+  background:#8b5cf6;
+  color:white;
+  border:none;
+  padding:12px 25px;
+  border-radius:25px;
+  cursor:pointer;
+  margin-top:15px;
+  font-size:15px;
+}
+
+button:hover{
+  background:#7c3aed;
+}
+
+/* Error text */
+.error{
+  color:#ff6b6b;
+  font-size:12px;
+  margin-top:4px;
+}
